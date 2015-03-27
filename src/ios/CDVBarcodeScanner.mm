@@ -849,7 +849,9 @@ parentViewController:(UIViewController*)parentViewController
     
     if (self.processor.is2D) {
         // ガイドの枠線を水色に
-        UIColor* color = [UIColor colorWithRed:0.09 green:0.94 blue:0.74 alpha:RETICLE_ALPHA];
+        //UIColor* color = [UIColor colorWithRed:0.09 green:0.94 blue:0.74 alpha:RETICLE_ALPHA];
+        // ガイドの枠線を黒に
+        UIColor* color = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:RETICLE_ALPHA];
         CGContextSetStrokeColorWithColor(context, color.CGColor);
         CGContextSetLineWidth(context, RETICLE_WIDTH);
         CGContextStrokeRect(context,
