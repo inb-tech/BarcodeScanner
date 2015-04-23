@@ -7,11 +7,16 @@ phonegap buildで使用するためGitHub上に公開していますが、
 特に社外での利用を想定していないため予告なしに改修更新が行われることがあります。
 使用する場合はforkしての使用をおすすめします。  
 
-オリジナルのREADME.mdをREADME_origin.mdとして内包しています合わせて参照して下さい。
+オリジナルのREADME.mdをREADME origin.mdとして内包しています合わせて参照して下さい。
+
+## version ##
+
+2.0.4 : Androidのレイアウトを縦固定に変更、日本語ガイドメッセージを削除  
+2.0.3 : iOSの見た目を変更  
 
 ## Licence ##
 
-オリジナルのコードの権利は README_origin.md を参照して下さい。
+オリジナルのコードの権利は README origin.md を参照して下さい。
 INNOBASE改修部分はMIT Licenseで提供されます。
 
 The MIT License
